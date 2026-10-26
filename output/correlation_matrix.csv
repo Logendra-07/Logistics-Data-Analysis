@@ -1,0 +1,6 @@
+,distance_km,shipment_volume_kg,delivery_time_hours,transportation_cost,delay_hours
+distance_km,1.0,-0.03,0.94,0.9,0.03
+shipment_volume_kg,-0.03,1.0,-0.01,0.22,-0.14
+delivery_time_hours,0.94,-0.01,1.0,0.94,0.04
+transportation_cost,0.9,0.22,0.94,1.0,-0.03
+delay_hours,0.03,-0.14,0.04,-0.03,1.0

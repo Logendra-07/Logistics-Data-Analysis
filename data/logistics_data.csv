@@ -1,101 +1,201 @@
-Order_ID,Order_Date,Warehouse,Destination,Distance_KM,Promised_Days,Delivery_Days,Shipping_Cost,Quantity
-1,2026-02-01,Chennai,Salem,429,2,1,2356,48
-2,2026-03-11,Chennai,Vellore,429,2,4,2672,3
-3,2026-03-06,Coimbatore,Madurai,161,2,1,1263,36
-4,2026-03-11,Bengaluru,Salem,382,3,5,2387,29
-5,2026-01-21,Coimbatore,Vellore,438,4,3,2664,22
-6,2026-02-13,Chennai,Madurai,160,4,4,1630,25
-7,2026-03-19,Bengaluru,Madurai,483,2,2,2608,47
-8,2026-02-18,Chennai,Trichy,113,5,6,1450,41
-9,2026-01-09,Chennai,Salem,148,4,5,1452,50
-10,2026-01-13,Bengaluru,Trichy,487,4,3,2567,30
-11,2026-01-27,Coimbatore,Trichy,239,4,4,1637,45
-12,2026-03-10,Coimbatore,Salem,375,2,3,2087,11
-13,2026-03-23,Coimbatore,Salem,188,5,5,1725,44
-14,2026-01-05,Bengaluru,Vellore,167,4,3,1588,18
-15,2026-02-10,Chennai,Vellore,340,2,2,2308,26
-16,2026-02-01,Coimbatore,Trichy,185,5,5,1311,48
-17,2026-01-29,Chennai,Vellore,254,5,6,1701,6
-18,2026-01-21,Coimbatore,Vellore,128,2,1,1333,39
-19,2026-03-01,Coimbatore,Trichy,245,2,2,1785,36
-20,2026-03-29,Coimbatore,Trichy,419,2,4,2234,50
-21,2026-01-21,Bengaluru,Madurai,200,4,3,1522,47
-22,2026-03-06,Chennai,Trichy,440,4,5,2351,41
-23,2026-01-21,Coimbatore,Madurai,241,3,3,1854,39
-24,2026-02-16,Bengaluru,Salem,59,4,4,793,4
-25,2026-03-04,Chennai,Salem,90,3,4,903,9
-26,2026-03-09,Coimbatore,Vellore,134,5,6,1171,14
-27,2026-03-27,Coimbatore,Trichy,209,3,5,1540,29
-28,2026-01-09,Bengaluru,Madurai,176,5,4,1319,38
-29,2026-01-10,Coimbatore,Madurai,162,3,4,1151,15
-30,2026-01-10,Coimbatore,Salem,490,2,1,2629,18
-31,2026-03-15,Coimbatore,Vellore,326,5,5,1871,16
-32,2026-01-13,Coimbatore,Vellore,147,5,5,1136,23
-33,2026-01-07,Coimbatore,Madurai,289,5,5,2098,4
-34,2026-01-14,Chennai,Salem,223,5,7,1801,13
-35,2026-02-05,Bengaluru,Salem,266,5,5,1657,5
-36,2026-03-25,Coimbatore,Madurai,100,5,6,925,6
-37,2026-03-03,Chennai,Vellore,258,3,3,1780,4
-38,2026-02-03,Bengaluru,Trichy,51,3,3,903,28
-39,2026-01-28,Chennai,Madurai,147,5,5,1239,48
-40,2026-03-03,Coimbatore,Salem,75,4,3,1099,4
-41,2026-01-09,Coimbatore,Salem,85,2,2,1144,26
-42,2026-03-18,Chennai,Madurai,176,2,3,1500,27
-43,2026-02-10,Chennai,Trichy,154,4,4,1458,26
-44,2026-02-28,Bengaluru,Madurai,380,3,5,2173,1
-45,2026-01-10,Coimbatore,Salem,338,5,6,1903,33
-46,2026-01-09,Chennai,Trichy,228,4,4,1863,19
-47,2026-02-08,Coimbatore,Madurai,476,3,3,2682,43
-48,2026-01-18,Bengaluru,Madurai,103,4,6,1392,7
-49,2026-01-27,Coimbatore,Trichy,194,3,3,1585,14
-50,2026-01-07,Chennai,Vellore,300,4,5,1828,18
-51,2026-01-17,Coimbatore,Trichy,220,2,1,1774,11
-52,2026-03-13,Chennai,Madurai,411,5,6,2362,5
-53,2026-02-17,Coimbatore,Salem,68,3,4,1199,28
-54,2026-01-06,Bengaluru,Salem,207,3,2,1514,44
-55,2026-03-13,Bengaluru,Salem,102,3,5,1089,16
-56,2026-01-23,Coimbatore,Trichy,261,3,3,1556,27
-57,2026-03-31,Chennai,Vellore,131,3,3,1427,3
-58,2026-02-28,Bengaluru,Trichy,152,5,5,1526,15
-59,2026-02-21,Bengaluru,Trichy,387,3,2,2146,5
-60,2026-02-21,Coimbatore,Trichy,378,4,4,2272,2
-61,2026-02-03,Chennai,Madurai,141,2,2,1361,39
-62,2026-02-10,Bengaluru,Madurai,423,5,5,2594,25
-63,2026-02-25,Chennai,Salem,72,3,3,1150,24
-64,2026-02-12,Coimbatore,Trichy,390,5,4,2531,43
-65,2026-02-09,Coimbatore,Vellore,203,2,4,1571,21
-66,2026-01-17,Chennai,Vellore,201,5,7,1587,43
-67,2026-01-23,Coimbatore,Trichy,433,5,7,2694,26
-68,2026-02-25,Coimbatore,Trichy,196,2,2,1391,30
-69,2026-03-07,Bengaluru,Salem,395,5,5,2189,43
-70,2026-03-23,Coimbatore,Trichy,313,2,2,2091,6
-71,2026-01-26,Chennai,Madurai,208,3,5,1447,3
-72,2026-01-10,Bengaluru,Vellore,362,3,3,2383,41
-73,2026-03-05,Bengaluru,Salem,406,3,5,2320,10
-74,2026-01-29,Chennai,Vellore,448,2,1,2509,4
-75,2026-03-01,Coimbatore,Trichy,283,3,2,1700,49
-76,2026-03-06,Bengaluru,Vellore,467,5,6,2736,11
-77,2026-02-01,Coimbatore,Trichy,182,5,5,1612,50
-78,2026-02-26,Chennai,Trichy,172,5,7,1328,16
-79,2026-03-11,Chennai,Salem,213,4,4,1809,10
-80,2026-01-28,Chennai,Vellore,405,3,3,2198,27
-81,2026-01-08,Chennai,Vellore,288,4,5,1864,25
-82,2026-01-01,Bengaluru,Trichy,244,2,3,1720,49
-83,2026-03-11,Coimbatore,Salem,325,5,5,2182,32
-84,2026-01-04,Bengaluru,Trichy,273,3,3,1840,43
-85,2026-03-01,Chennai,Madurai,134,5,7,1466,26
-86,2026-01-18,Bengaluru,Salem,379,2,1,2235,4
-87,2026-02-28,Bengaluru,Trichy,217,4,4,1476,49
-88,2026-02-23,Bengaluru,Madurai,435,5,5,2727,31
-89,2026-02-14,Chennai,Madurai,326,2,4,1830,50
-90,2026-01-03,Coimbatore,Salem,176,2,1,1306,16
-91,2026-03-14,Chennai,Vellore,392,3,3,2126,45
-92,2026-03-19,Coimbatore,Madurai,135,4,4,1350,50
-93,2026-01-04,Bengaluru,Vellore,105,3,3,1216,26
-94,2026-03-22,Chennai,Madurai,353,3,2,2265,45
-95,2026-01-16,Coimbatore,Madurai,357,4,6,2340,23
-96,2026-03-06,Coimbatore,Trichy,239,5,7,1491,1
-97,2026-02-16,Coimbatore,Vellore,104,5,5,1137,46
-98,2026-03-08,Coimbatore,Trichy,140,3,3,1435,40
-99,2026-03-17,Bengaluru,Trichy,273,5,5,2014,16
-100,2026-03-01,Coimbatore,Vellore,280,2,2,1744,22
+shipment_id,distance_km,shipment_volume_kg,transport_mode,warehouse,delivery_time_hours,transportation_cost,delay_hours,delivery_status
+1001,122,534,Rail,Hyderabad,9.63,1009.64,1.25,On Time
+1002,455,1480,Truck,Bengaluru,27.02,8428.02,3.87,On Time
+1003,880,280,Truck,Hyderabad,46.73,11307.18,0.2,On Time
+1004,290,798,Truck,Chennai,14.68,4649.21,1.14,On Time
+1005,126,1728,Truck,Chennai,6.07,4243.98,2.33,On Time
+1006,91,1244,Truck,Hyderabad,12.93,2395.26,4.69,On Time
+1007,720,590,Van,Chennai,45.6,13627.88,1.15,On Time
+1008,40,1109,Van,Hyderabad,4.95,2368.11,2.95,On Time
+1009,634,574,Truck,Chennai,38.18,8523.7,6.51,Delayed
+1010,141,1233,Truck,Chennai,11.69,3904.38,2.87,On Time
+1011,486,1912,Truck,Hyderabad,30.41,8940.5,0.8,On Time
+1012,234,1772,Van,Chennai,18.07,6513.94,0.07,On Time
+1013,350,1316,Truck,Hyderabad,26.93,5778.76,6.12,Delayed
+1014,478,1159,Van,Chennai,36.56,9622.23,0.06,On Time
+1015,107,1869,Rail,Chennai,8.0,4707.51,6.23,Delayed
+1016,392,627,Truck,Bengaluru,25.55,6317.21,2.26,On Time
+1017,119,731,Rail,Bengaluru,11.1,2964.09,8.39,Delayed
+1018,891,606,Truck,Hyderabad,49.2,11345.39,4.81,On Time
+1019,683,1647,Truck,Bengaluru,32.84,10171.7,18.55,Delayed
+1020,150,1062,Van,Hyderabad,15.31,3930.11,1.3,On Time
+1021,681,695,Van,Bengaluru,45.63,11966.36,4.37,On Time
+1022,328,845,Rail,Chennai,11.2,4766.6,1.54,On Time
+1023,789,1101,Truck,Hyderabad,36.96,10273.27,1.96,On Time
+1024,363,1693,Truck,Hyderabad,15.22,7660.28,2.96,On Time
+1025,511,1629,Van,Chennai,32.3,10540.5,6.21,Delayed
+1026,433,1413,Van,Hyderabad,30.97,8834.06,12.42,Delayed
+1027,825,1871,Truck,Hyderabad,46.63,12200.45,4.39,On Time
+1028,405,1404,Rail,Bengaluru,19.4,4923.57,1.62,On Time
+1029,211,1713,Truck,Hyderabad,19.38,5513.09,1.64,On Time
+1030,975,1579,Truck,Chennai,44.73,14105.16,4.01,On Time
+1031,296,1421,Rail,Bengaluru,10.25,4150.52,0.82,On Time
+1032,180,1546,Van,Bengaluru,14.73,4551.46,0.35,On Time
+1033,479,1304,Rail,Chennai,22.92,6099.11,1.31,On Time
+1034,333,239,Truck,Chennai,19.89,5189.01,1.02,On Time
+1035,41,1298,Van,Bengaluru,2.0,2473.2,1.05,On Time
+1036,272,1458,Van,Hyderabad,19.69,5787.43,0.8,On Time
+1037,767,1450,Rail,Bengaluru,27.93,8955.13,0.13,On Time
+1038,876,1356,Truck,Chennai,46.43,12409.64,0.05,On Time
+1039,580,682,Truck,Bengaluru,32.2,6634.56,13.2,Delayed
+1040,494,677,Truck,Chennai,24.41,6916.35,1.67,On Time
+1041,78,1022,Truck,Bengaluru,6.97,2353.53,1.46,On Time
+1042,530,1818,Truck,Hyderabad,25.67,9435.1,3.41,On Time
+1043,701,1332,Truck,Bengaluru,36.36,11334.48,0.74,On Time
+1044,495,1432,Truck,Bengaluru,30.14,8651.28,8.98,Delayed
+1045,719,759,Van,Chennai,41.59,12508.06,4.63,On Time
+1046,995,1529,Rail,Chennai,41.34,10695.24,0.28,On Time
+1047,802,1484,Truck,Chennai,39.5,13136.68,1.62,On Time
+1048,209,698,Truck,Bengaluru,12.03,3584.61,6.34,Delayed
+1049,977,367,Van,Hyderabad,58.41,16189.46,8.69,Delayed
+1050,706,1750,Truck,Chennai,33.66,11084.94,1.89,On Time
+1051,977,1298,Truck,Chennai,47.3,13770.04,2.85,On Time
+1052,582,1892,Truck,Bengaluru,27.6,9749.82,0.55,On Time
+1053,895,1307,Truck,Chennai,51.17,12413.67,14.19,Delayed
+1054,586,733,Van,Hyderabad,37.34,10202.07,0.79,On Time
+1055,263,713,Truck,Hyderabad,14.74,4209.12,8.58,Delayed
+1056,851,1900,Van,Chennai,52.45,16194.29,3.15,On Time
+1057,524,1447,Van,Chennai,33.48,10198.08,2.81,On Time
+1058,150,1745,Truck,Bengaluru,11.09,4470.72,2.16,On Time
+1059,504,1681,Truck,Hyderabad,29.52,8442.01,0.79,On Time
+1060,838,1545,Truck,Hyderabad,44.98,13125.5,0.58,On Time
+1061,666,1306,Van,Chennai,40.04,11289.52,0.75,On Time
+1062,40,1765,Truck,Bengaluru,5.07,3673.25,0.62,On Time
+1063,860,1186,Truck,Hyderabad,42.87,12722.04,4.54,On Time
+1064,186,1903,Van,Hyderabad,8.32,4793.8,1.29,On Time
+1065,293,1570,Truck,Bengaluru,13.64,5699.66,0.18,On Time
+1066,407,491,Truck,Bengaluru,27.42,5434.78,10.43,Delayed
+1067,620,613,Truck,Hyderabad,37.83,7655.74,6.46,Delayed
+1068,335,1341,Truck,Hyderabad,19.33,5642.59,7.88,Delayed
+1069,33,1583,Rail,Bengaluru,7.88,2116.21,15.84,Delayed
+1070,261,1880,Truck,Hyderabad,17.68,6828.14,0.57,On Time
+1071,796,1459,Van,Chennai,58.02,15392.34,1.51,On Time
+1072,365,1460,Truck,Chennai,24.78,7205.78,4.26,On Time
+1073,584,1186,Van,Bengaluru,36.74,11483.84,3.57,On Time
+1074,917,1686,Truck,Bengaluru,43.4,12968.47,0.5,On Time
+1075,359,1698,Truck,Bengaluru,16.34,6592.74,5.08,Delayed
+1076,111,1001,Rail,Chennai,9.5,2745.19,0.76,On Time
+1077,386,1154,Van,Hyderabad,23.96,7295.94,0.76,On Time
+1078,975,748,Rail,Chennai,34.86,10253.5,2.31,On Time
+1079,474,162,Truck,Hyderabad,24.39,5810.84,2.7,On Time
+1080,447,51,Truck,Chennai,21.87,5253.09,2.6,On Time
+1081,528,691,Truck,Hyderabad,33.82,7727.98,0.29,On Time
+1082,795,269,Truck,Chennai,43.42,10165.63,6.3,Delayed
+1083,962,1639,Truck,Bengaluru,48.27,13822.02,0.93,On Time
+1084,54,904,Van,Chennai,12.41,2799.66,0.42,On Time
+1085,225,1809,Truck,Hyderabad,15.36,4872.97,6.59,Delayed
+1086,100,1298,Rail,Chennai,5.92,3154.97,9.35,Delayed
+1087,951,434,Truck,Chennai,52.36,12359.55,5.94,Delayed
+1088,581,1476,Van,Chennai,38.57,11355.23,4.97,On Time
+1089,891,1711,Truck,Bengaluru,41.98,13421.57,3.19,On Time
+1090,407,1203,Truck,Chennai,22.74,6062.94,2.4,On Time
+1091,21,1126,Van,Bengaluru,3.53,2487.01,0.27,On Time
+1092,409,1757,Truck,Bengaluru,19.26,7451.05,1.58,On Time
+1093,585,779,Truck,Chennai,34.1,7927.14,1.4,On Time
+1094,125,1745,Rail,Chennai,15.1,4267.0,0.9,On Time
+1095,791,1783,Van,Chennai,44.31,14978.33,3.86,On Time
+1096,841,1489,Truck,Hyderabad,44.53,11621.27,2.05,On Time
+1097,496,296,Truck,Chennai,25.37,5617.69,0.25,On Time
+1098,722,885,Truck,Bengaluru,36.03,10294.5,0.75,On Time
+1099,421,1512,Van,Chennai,26.38,8363.79,3.45,On Time
+1100,749,252,Truck,Hyderabad,36.11,10243.4,0.24,On Time
+1101,575,1257,Truck,Chennai,31.02,7744.54,5.72,Delayed
+1102,181,172,Truck,Hyderabad,10.65,3278.23,2.05,On Time
+1103,221,450,Truck,Hyderabad,15.76,3432.51,1.97,On Time
+1104,977,816,Van,Chennai,58.58,16807.64,2.69,On Time
+1105,289,343,Truck,Bengaluru,17.29,3710.04,5.22,Delayed
+1106,882,329,Rail,Hyderabad,33.15,8631.07,1.28,On Time
+1107,835,1910,Truck,Chennai,40.84,12866.18,3.4,On Time
+1108,290,933,Truck,Chennai,20.32,5431.15,2.5,On Time
+1109,475,1683,Truck,Bengaluru,27.88,8281.61,0.93,On Time
+1110,481,247,Truck,Hyderabad,23.71,6217.65,6.33,Delayed
+1111,746,1031,Rail,Hyderabad,31.41,8078.69,4.79,On Time
+1112,271,1980,Van,Chennai,22.16,7277.53,3.22,On Time
+1113,721,1584,Truck,Chennai,32.44,11181.9,5.7,Delayed
+1114,315,801,Van,Bengaluru,23.96,5386.42,6.06,Delayed
+1115,744,193,Truck,Bengaluru,36.49,8543.41,3.7,On Time
+1116,739,658,Van,Hyderabad,47.36,13182.63,5.44,Delayed
+1117,768,1274,Truck,Hyderabad,37.27,11212.43,3.59,On Time
+1118,357,1197,Van,Chennai,19.22,7415.51,3.42,On Time
+1119,898,236,Truck,Hyderabad,40.53,11139.22,2.89,On Time
+1120,72,1399,Truck,Bengaluru,8.38,3136.29,4.19,On Time
+1121,811,513,Truck,Bengaluru,42.27,10231.62,0.52,On Time
+1122,941,1422,Truck,Chennai,44.63,13035.85,6.38,Delayed
+1123,236,1844,Truck,Bengaluru,17.54,5695.92,6.16,Delayed
+1124,783,709,Truck,Bengaluru,35.25,9970.31,0.09,On Time
+1125,207,813,Rail,Bengaluru,12.05,3286.63,5.24,Delayed
+1126,399,1004,Truck,Bengaluru,19.32,5442.71,0.41,On Time
+1127,512,452,Truck,Chennai,26.08,7336.58,1.22,On Time
+1128,60,1419,Van,Chennai,8.44,3324.8,4.08,On Time
+1129,176,1584,Van,Hyderabad,12.1,5320.01,0.53,On Time
+1130,34,196,Truck,Bengaluru,5.38,1193.35,5.11,Delayed
+1131,832,1221,Truck,Hyderabad,45.46,12648.24,5.35,Delayed
+1132,84,913,Van,Chennai,7.89,3220.69,2.12,On Time
+1133,876,1784,Truck,Chennai,46.93,12267.56,0.02,On Time
+1134,858,1893,Rail,Chennai,31.64,9921.71,1.01,On Time
+1135,540,538,Rail,Chennai,25.49,5354.59,2.88,On Time
+1136,363,978,Truck,Chennai,25.66,5836.05,11.92,Delayed
+1137,148,1713,Truck,Chennai,4.25,4604.33,3.0,On Time
+1138,667,600,Rail,Chennai,25.95,6540.13,0.9,On Time
+1139,491,387,Truck,Bengaluru,28.83,6565.88,3.02,On Time
+1140,82,921,Truck,Hyderabad,8.08,1987.81,2.33,On Time
+1141,158,690,Van,Chennai,14.8,3257.24,4.54,On Time
+1142,518,1852,Van,Bengaluru,31.68,10362.67,0.34,On Time
+1143,612,522,Rail,Bengaluru,26.68,5829.38,4.29,On Time
+1144,411,200,Rail,Hyderabad,18.92,3323.16,2.34,On Time
+1145,694,1488,Rail,Chennai,32.79,7990.06,9.89,Delayed
+1146,438,1371,Van,Hyderabad,29.85,9591.32,1.26,On Time
+1147,308,1684,Van,Chennai,22.95,6979.3,3.0,On Time
+1148,398,312,Van,Bengaluru,25.65,8152.19,8.07,Delayed
+1149,792,1837,Van,Bengaluru,47.1,15674.16,0.32,On Time
+1150,509,193,Truck,Bengaluru,26.61,6489.92,8.3,Delayed
+1151,250,395,Van,Bengaluru,19.93,4163.32,3.49,On Time
+1152,60,673,Van,Hyderabad,7.04,2319.65,0.21,On Time
+1153,47,1066,Van,Chennai,8.45,2063.18,1.07,On Time
+1154,154,1645,Van,Chennai,19.7,4992.5,3.69,On Time
+1155,220,930,Van,Hyderabad,19.71,6195.04,0.21,On Time
+1156,859,51,Truck,Chennai,42.68,10336.47,2.62,On Time
+1157,799,946,Truck,Bengaluru,44.56,11581.64,1.27,On Time
+1158,949,1377,Truck,Chennai,46.48,13101.91,2.91,On Time
+1159,52,303,Truck,Bengaluru,2.0,1061.01,0.14,On Time
+1160,67,1725,Truck,Hyderabad,4.99,4276.9,6.16,Delayed
+1161,522,502,Van,Chennai,28.1,8791.52,10.89,Delayed
+1162,426,1110,Truck,Hyderabad,23.12,7683.22,10.41,Delayed
+1163,593,1233,Van,Chennai,37.67,11691.38,4.15,On Time
+1164,747,1064,Truck,Bengaluru,43.64,10278.77,0.42,On Time
+1165,824,58,Van,Hyderabad,51.3,13587.2,4.26,On Time
+1166,118,1306,Truck,Chennai,9.65,3861.28,0.07,On Time
+1167,703,1172,Truck,Bengaluru,39.12,10504.9,0.07,On Time
+1168,891,1732,Truck,Hyderabad,38.46,12504.89,1.17,On Time
+1169,745,865,Van,Hyderabad,46.68,12853.93,2.01,On Time
+1170,566,257,Truck,Chennai,32.78,7053.74,4.41,On Time
+1171,980,1204,Rail,Chennai,34.86,10588.78,3.45,On Time
+1172,758,453,Truck,Chennai,42.54,10085.84,1.77,On Time
+1173,632,201,Truck,Bengaluru,34.46,7974.35,0.96,On Time
+1174,962,103,Rail,Chennai,37.42,8144.83,17.55,Delayed
+1175,481,1193,Truck,Hyderabad,28.54,7751.6,1.67,On Time
+1176,662,1746,Truck,Hyderabad,41.6,10868.29,1.8,On Time
+1177,788,1993,Van,Chennai,48.89,15877.4,0.54,On Time
+1178,24,677,Van,Chennai,7.06,1939.89,4.75,On Time
+1179,237,636,Van,Hyderabad,16.66,5162.96,3.55,On Time
+1180,522,1698,Truck,Bengaluru,25.94,9040.59,0.75,On Time
+1181,786,1493,Truck,Chennai,42.86,11636.42,0.26,On Time
+1182,417,1495,Van,Chennai,25.37,8084.02,3.42,On Time
+1183,890,153,Rail,Hyderabad,36.36,8454.31,3.19,On Time
+1184,814,1925,Van,Chennai,48.34,16015.34,0.96,On Time
+1185,412,303,Truck,Bengaluru,24.98,5534.29,9.04,Delayed
+1186,226,1300,Van,Hyderabad,18.43,4927.63,0.49,On Time
+1187,34,1185,Van,Chennai,9.98,1780.97,1.7,On Time
+1188,877,559,Truck,Hyderabad,42.93,11889.08,8.63,Delayed
+1189,573,1546,Truck,Chennai,29.98,9175.22,1.63,On Time
+1190,911,148,Truck,Chennai,43.06,11494.75,3.05,On Time
+1191,480,202,Truck,Chennai,25.27,6077.16,1.52,On Time
+1192,710,1934,Truck,Bengaluru,38.08,11435.88,0.96,On Time
+1193,594,963,Truck,Bengaluru,34.0,9041.64,12.4,Delayed
+1194,883,1969,Truck,Hyderabad,41.97,13291.48,1.58,On Time
+1195,762,927,Truck,Chennai,41.9,10582.56,6.74,Delayed
+1196,260,387,Rail,Chennai,18.17,2689.36,0.78,On Time
+1197,583,1779,Van,Bengaluru,38.31,11779.25,0.72,On Time
+1198,115,871,Truck,Chennai,15.81,2531.91,0.09,On Time
+1199,919,1236,Rail,Bengaluru,34.84,10236.07,3.16,On Time
+1200,753,1793,Van,Chennai,42.68,14498.13,1.38,On Time

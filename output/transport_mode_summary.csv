@@ -1,0 +1,4 @@
+transport_mode,delivery_time_hours,transportation_cost
+Rail,22.67,6067.04
+Truck,29.54,8244.57
+Van,28.4,8593.48
