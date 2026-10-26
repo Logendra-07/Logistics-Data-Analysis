@@ -1,0 +1,9 @@
+Feature,Importance
+distance_km,0.9373028649527531
+transport_mode_Rail,0.023787036979238105
+transport_mode_Van,0.016323564549456167
+shipment_volume_kg,0.013705838649554804
+transport_mode_Truck,0.005355065859878113
+warehouse_Chennai,0.001683934477724137
+warehouse_Bengaluru,0.0011527325183252296
+warehouse_Hyderabad,0.0006889620130704048
